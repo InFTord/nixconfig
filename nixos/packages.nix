@@ -19,6 +19,8 @@
 
   ];  
 
+  programs.ssh.startAgent = true;
+
   programs.java.enable = true; 
   
   programs.gamemode.enable = true;  
